@@ -1,0 +1,53 @@
+  body{
+	font-family:Georgia;
+    font-size:18px;	
+	padding: 0px;
+	margin: 0px;
+	
+  }
+  header{
+	background-color:blue; 
+	color:#FFF;
+	text-align:center;
+	text-shadow: 5px 5px 6px rgba(0, 0, 0, 1);
+	padding: 20px;
+	display:flex;
+	align-items:center;
+  }
+  header img{
+	border-radius:40px 10px;
+	width:130px;
+	margin-left:20px;
+	
+  }
+  img{
+	width:270px; 
+	box-shadow:10px 10px 15px rgba(0,0,0,0.5);
+  }
+  img:hover{
+	transform:scale(1.1);
+  }
+  .bi-en{
+	margin-left:230px;  
+	  
+  }
+  .texte{
+	  padding-left:60px;
+	  
+  }
+  .vet-ment{
+	background-color:grey;
+    padding:4px 8px;
+    margin-right:1000px;	
+	 font-weight:bold; 
+  }
+  .pat-lon{
+	background-color:grey;
+    padding:4px 8px;
+    margin-right:1000px; 
+	font-weight:bold;
+  }
+  li{
+	 list-style-type:none;
+  }
+  
