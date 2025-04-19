@@ -50,4 +50,16 @@
   li{
 	 list-style-type:none;
   }
+@media (max-width:600px){
+	header{
+		flex-direction:column;
+		text-align:center;
+	}
+	header img{
+		  margin:0 auto;
+	  }
+	  h1{
+		  margin-top:10px;
+	  }
+}
   
