@@ -1,4 +1,4 @@
-  body{
+body{
 	font-family:Georgia;
     font-size:13px;	
 	padding: 0px;
@@ -9,7 +9,7 @@
 	background-color:blue; 
 	color:#FFF;
 	text-align:center;
-	font-size:15px;
+	font-size:12px;
 	text-shadow: 5px 5px 6px rgba(0, 0, 0, 1);
 	padding: 20px;
 	display:flex;
@@ -18,35 +18,44 @@
   header img{
 	border-radius:40px 10px;
 	width:90px;
-	margin-left:20px;
+	margin-left:10px;
 	
   }
   img{
 	width:220px; 
-	box-shadow:10px 10px 15px rgba(0,0,0,0.5);
+	box-shadow:20px 15px 25px rgba(0,0,0,0.5);
+	border-radius:30px;
   }
   img:hover{
 	transform:scale(1.1);
   }
   .bi-en{
-	margin-left:180px;  
+	margin-left:80px;  
 	  
   }
   .texte{
-	  padding-left:60px;
+	  padding-left:30px;
 	  
   }
   .vet-ment{
 	background-color:grey;
     padding:4px 8px;
-    margin-right:900px;	
+	
+    margin-right:500px;	
 	 font-weight:bold; 
+	 font-size:20px;
   }
   .pat-lon{
 	background-color:grey;
-    padding:4px 8px;
-    margin-right:900px; 
+    padding:1px 9px;
+	margin-left:40px;
+    margin-right:500px; 
 	font-weight:bold;
+	font-size:20px;
+  }
+  nav li{
+	  display:flex;
+	  align-items:center;
   }
   li{
 	 list-style-type:none;
