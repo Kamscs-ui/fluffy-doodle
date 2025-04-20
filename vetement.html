@@ -3,8 +3,45 @@
 <head>
 <meta charset="UTF-8">
 <title>Vêtement</title>
+<style>
+body{
+ font-family:Georgia;
+ margin: 0%;
+ padding: 0%;
+ overflow:hidden;
+}
+h2{
+  animation-duration:8s;
+  animation-name:slide;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-in-out;
+  
+}
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 40%;
+    width: 100%;
+  }
+}
+header{
+ background-color: blue;
+ width: 100vw;
+ padding: 20px;
+}
+.em{
+  font-family:cursive;
+  font-size:180%;
+}
+</style>
 </head>
 <body>
- <h2>Vêtement</h2>
+<header>
+ <h2 class="em"><em>Section Vêtement</em></h2>
+</header>
 </body>
 </html>
