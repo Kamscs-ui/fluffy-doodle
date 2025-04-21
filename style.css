@@ -38,7 +38,7 @@
 	  
   }
   .texte{
-	  padding-left:20px;
+	  padding-left:1%;
 	  
   }
   .vet-ment{
@@ -47,7 +47,7 @@
 	 font-weight:bold; 
 	 font-size:180%;
 	 width:100%;
-	 max-width:96vw;
+	 max-width:90vw;
 	 box-sizing:border-box;
   }
   .pat-lon{
@@ -55,7 +55,7 @@
      padding:1px 9px;
 	 margin-left:40px;
     width:100%;
-	 max-width:96vw;
+	 max-width:89vw;
 	 font-weight:bold;
 	 font-size:180%;
 	 box-sizing:border-box;
